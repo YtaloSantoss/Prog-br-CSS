@@ -1,0 +1,30 @@
+
+#cobrir {
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+#primeira {
+    height: 100px;
+    background-color: rgb(81, 238, 186);
+}
+
+#segunda {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(250, 52, 52);
+    border-radius: 100px 100px;
+    border-width: 5px;
+    border-style: solid;
+}
+
+#terceira{
+    height: 100px;
+    background-color: rgb(164, 253, 48);
+}
+
+p{
+    border-width: 1px;
+    border-style: solid;
+}
