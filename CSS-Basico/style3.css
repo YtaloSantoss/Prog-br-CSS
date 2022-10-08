@@ -1,0 +1,19 @@
+a {
+    background-color: rgba(6, 29, 21, 0.973);
+    color: rgba(50, 241, 241, 0.836);
+    padding: 15px;
+    text-decoration: none;
+}
+
+a:visited{
+    background-color: rgb(164, 53, 228);
+}
+
+a:hover{
+    padding: 20px;
+    background-color: brown;
+}
+
+a:link {
+   
+}
