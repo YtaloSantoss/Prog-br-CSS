@@ -7,35 +7,33 @@
     <title>Document</title>
     <style>
         .quadrado{
-            width: 100px;
-            height: 100px;
-            
+            width:100px;
+            height:100px; 
+                  
         }
         .quadrado-red{
-            background-color: red;         
+            background-color: rgba(233, 56, 56, 0.418); 
+            position: sticky;
+            top: 0px;
+            width: 100%;       
         }
         .quadrado-blue{
             background-color: blue;
-            position: fixed;
-            bottom: 500px;
-            right: 0px;
         }
         .quadrado-green{
             background-color: green;        
         }
 
         .quadro {
-            width: 500px;
-            height: 4000px;
-            border: 1px solid gray;
-            
-            
+            width:500px;
+            height:4000px;
+            border: 1px solid gray;      
         }
     </style>
 </head>
 <body>
+    <div class="quadrado quadrado-red"></div>
     <div class="quadro">
-        <div class="quadrado quadrado-red"></div>
         <div class="quadrado quadrado-blue"></div>
         <div class="quadrado quadrado-green"></div>
     </div>
