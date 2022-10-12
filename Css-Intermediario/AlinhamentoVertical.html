@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        body{
+            font-size:1.2rem;
+          
+        }
+        .cart{
+            position:relative;
+            float: left;
+            width: 400px;
+            height: 200px;
+            border:2px solid green;
+            text-align: center;
+        }
+         /* Alinhamento vertical, uma forma de fazer */
+        .car1{
+            background-color: rgb(221, 117, 117);
+            line-height: 200px;
+        }
+         /* Alinhamento vertical, outra forma de fazer */
+        .car2{
+            /*Alinhamento da Div Pai*/
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            background-color:rgb(230, 181, 117);
+            /*Alinhamento do alemento conteudo*/
+            transform: translate(-50%, -50%);
+
+        }
+        /* Alinhamento vertical, mais uma forma de fazer */
+        .cartforma3{
+           
+            float:left;
+            border: 2px solid green;
+            padding-left: 150px;
+            padding-right:150px;
+            /*200px do tamanho principal dividido para top e botton 100px pra cada, menos A fonte de 22px, 88.9 para cada*/
+            padding-top:88.9px;
+            padding-bottom:88.9px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="cart">
+        <div class="car1">
+            YtaloSantoss
+        </div>
+    </div>
+    
+    <div class="cart">
+        <div class="car2">
+            YtaloSantoss
+        </div>
+    </div>
+
+    <div class="cartforma3">
+        <div>
+            YtaloSantoss
+        </div>
+    </div>
+</body>
+</html>
