@@ -1,22 +1,23 @@
 .container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    background-color: rgb(228, 203, 226);
+   
+    background-color: rgb(231, 94, 220);
     height: 780px;
     color: white;
 }
 
 .r1{
+  
     background-color: red;
 }
 
 .r2{
+    align-self:flex-end;
     background-color: blue;
 }
 
 .r3{
+    
     background-color: green;
 }
 
